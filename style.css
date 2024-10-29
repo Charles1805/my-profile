@@ -1,0 +1,80 @@
+body {
+	background-color: rgb(190, 190, 190);
+	color: rgb(50, 50, 50);
+	font-family: serif;
+
+}
+
+h1, h2, h3 {
+   font-family: "Helvetica", sans-serif;
+   color: darkred;
+}
+h1 {
+   color: brown;
+   font-size: 28px;
+}
+h2{
+  color: rgb(100, 100, 100 / 1.0);
+  font-size: 22px;
+  font-weight: normal;
+}
+a{
+ text-decoration: underline;
+ color: royalblue;
+}
+a:hover {
+	color: forestgreen;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	bow-shadow: 0px 10px 30px rgba(0,0,0, 0.5);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: brown;
+	color: white;
+	padding: 15px 20px;
+	background-repeat: 50%;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
